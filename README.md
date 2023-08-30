@@ -31,7 +31,19 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 - [**Automate Threat Intelligence Mapping to MITRE**](https://github.com/center-for-threat-informed-defense/tram/): Automates threat intelligence mapping to MITRE ATT&CK.
 - **STIX**: Structured Threat Information Expression (STIX) format for threat intelligence. [Link](https://oasis-open.github.io/cti-documentation/stix/intro)
 - [**Palo Alto UNIT 42**](https://www.paloaltonetworks.com/unit42/): Threat intelligence and research from Palo Alto Networks UNIT 42.
-
+- [**AttackerKB**](https://attackerkb.com/): Free and public crowdsourced vulnerability assessment platform to help prioritize high-risk patch application and combat vulnerability fatigue.
+- [**DATA**](https://github.com/0xDezzy/DATA): Credential phish analysis and automation tool that can accept suspected phishing URLs directly or trigger on observed network traffic containing such a URL.
+- [**Forager**](https://github.com/OTRF/Forager): Multi-threaded threat intelligence gathering built with Python3 featuring simple text-based configuration and data storage for ease of use and data portability.
+- [**GRASSMARLIN**](https://github.com/nsacyber/GRASSMARLIN): Provides IP network situational awareness of industrial control systems (ICS) and Supervisory Control and Data Acquisition (SCADA) by passively mapping, accounting for, and reporting on your ICS/SCADA network topology and endpoints.
+- [**MLSec Combine**](https://github.com/MLSolutions/Combine): Gather and combine multiple threat intelligence feed sources into one customizable, standardized CSV-based format.
+- [**Malware Information Sharing Platform and Threat Sharing (MISP)**](https://www.misp-project.org/): Open source software solution for collecting, storing, distributing, and sharing cyber security indicators.
+- [**Open Source Vulnerabilities (OSV)**](https://github.com/GoogleContainerTools/osv): Vulnerability database and triage infrastructure for open source projects aimed at helping both open source maintainers and consumers of open source.
+- [**Sigma**](https://github.com/SigmaHQ/sigma): Generic signature format for SIEM systems, offering an open signature format that allows you to describe relevant log events in a straightforward manner.
+- [**Threat Bus**](https://github.com/tenzir/threatbus): Threat intelligence dissemination layer to connect security tools through a distributed publish/subscribe message broker.
+- [**ThreatIngestor**](https://github.com/InQuest/ThreatIngestor): Extendable tool to extract and aggregate IOCs from threat feeds including Twitter, RSS feeds, or other sources.
+- [**Unfetter**](https://unfetter.io/): Identifies defensive gaps in security posture by leveraging Mitre's ATT&CK framework.
+- [**Viper**](https://github.com/viper-framework/viper): Binary analysis and management framework enabling easy organization of malware and exploit samples.
+- [**YARA**](https://virustotal.github.io/yara/): Tool aimed at helping malware researchers to identify and classify malware samples. It's described as "the pattern matching Swiss army knife" for file patterns and signatures.
 
   
 ## Network Discovery & Mapping
