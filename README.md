@@ -44,7 +44,9 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 - [**Unfetter**](https://unfetter.io/): Identifies defensive gaps in security posture by leveraging Mitre's ATT&CK framework.
 - [**Viper**](https://github.com/viper-framework/viper): Binary analysis and management framework enabling easy organization of malware and exploit samples.
 - [**YARA**](https://virustotal.github.io/yara/): Tool aimed at helping malware researchers to identify and classify malware samples. It's described as "the pattern matching Swiss army knife" for file patterns and signatures.
-
+- [**CanaryTokens**](https://canarytokens.org/): Self-hostable honeytoken generator and reporting dashboard; demo version available at CanaryTokens.org.
+- [**Kushtaka**](https://github.com/austin-taylor/kushtaka): Sustainable all-in-one honeypot and honeytoken orchestrator for under-resourced blue teams.
+- [**Manuka**](https://github.com/M-o-a-T/Manuka): Open-source intelligence (OSINT) honeypot that monitors reconnaissance attempts by threat actors and generates actionable intelligence for Blue Teamers.
   
 ## Network Discovery & Mapping
 - [**Nmap**](https://nmap.org/): Nmap is a free and open-source network scanner tool used to discover hosts and services on a computer network. It probes for information about their characteristics, identifies open ports, and can help uncover security vulnerabilities.
@@ -77,11 +79,64 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 - [**IPFire**](https://www.ipfire.org/): IPFire is a hardened GNU/Linux-based router and firewall distribution. It's a fork of IPCop and focuses on security and ease of use. IPFire offers features such as intrusion detection, VPN support, content filtering, and more.
 - [**OPNsense**](https://opnsense.org/): OPNsense is a hardened FreeBSD-based firewall and routing platform. It's a fork of pfSense and is designed to provide security and traffic control capabilities. OPNsense includes features like VPN support, web filtering, and a user-friendly web interface.
 - [**pfSense**](https://www.pfsense.org/): pfSense is a popular FreeBSD-based firewall and router distribution. It's known for its flexibility and feature-rich environment. pfSense includes firewalling, routing, VPN, and other network services, making it a versatile choice for network administrators.
+- [**Sysmon**](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon): System Monitor for Windows.
+
+- [**Kibana**](https://www.elastic.co/kibana/): Data visualization and exploration.
+
+- [**Logstash**](https://www.elastic.co/logstash/): Data collection and processing.
+
+- [**Parsedmarc**](https://github.com/domainaware/parsedmarc): Email DMARC data visualization.
+
+- [**Phishing Catcher**](https://github.com/x0rz/phishing_catcher): Phishing catcher using Certstream.
+
+- [**Maltrail**](https://github.com/stamparm/maltrail): Malicious traffic detection system.
+- [**AutorunsToWinEventLog**](https://github.com/palantir/windows-event-forwarding/tree/master/AutorunsToWinEventLog): Windows AutoRuns Event Parser.
+- [**Procfilter**](https://github.com/godaddy/procfilter): YARA-integrated process denial framework.
+- [**Velociraptor**](https://github.com/Velocidex/velociraptor): Endpoint visibility and collection tool.
+- [**SysmonSearch**](https://github.com/JPCERTCC/SysmonSearch): Sysmon event log visualization.
+- [**Library of events detection adversary behavior**](https://eqllib.readthedocs.io/en/latest/index.html)
+- [**Osquery**](https://github.com/osquery/osquery)
+- [**Sigma Rules**](https://github.com/SigmaHQ/sigma)
+- [**Kippo**](https://github.com/desaster/kippo): SSH honeypot for detecting and logging brute force attacks and shell history.
+- [**Glastopf**](https://github.com/mushorg/glastopf): HTTP-based honeypot for emulating vulnerabilities.
+- [**ElasticHoney**](https://github.com/jordan-wright/elastichoney): Honeypot designed for Elasticsearch to capture malicious requests.
+- [**Artillery**](https://github.com/BinaryDefense/artillery): Monitoring tool and alerting system, detects attacks and brute force attempts.
+- [**Splunk**](https://www.splunk.com/): Log management and analysis for machine-generated data.
+- [**Loggly**](https://www.loggly.com/): Cloud-based log management and analysis.
+- [**Fluentd**](https://github.com/fluent/fluentd): Open source data collector for a unified logging layer.
+- [**Sumo Logic**](https://www.sumologic.com/): Log management and security analytics service.
+- [**OSSIM**](https://cybersecurity.att.com/products/ossim): SIEM solution from AlienVault.
+- [**Elastic Stack**](https://www.elastic.co/elastic-stack): Collection of products for data search, analysis, and visualization.
+- [**SIEMonster**](https://siemonster.com/): Affordable security monitoring software solution.
+- [**OSSEC**](https://github.com/ossec/ossec-hids): Host intrusion detection system (HIDS) for log analysis, rootkit detection, and more.
+- [**Zeek**](https://zeek.org/): Open source network security monitoring platform.
+- [**RITA**](https://github.com/activecm/rita): Real Intelligence Threat Analysis framework for network traffic analysis.
+- [**Maltrail**](https://github.com/stamparm/maltrail): Malicious traffic detection system utilizing blacklists and heuristic mechanisms.
+- [**Gatekeeper**](https://github.com/gatekeeperhq/gatekeeper): First open source Distributed Denial of Service (DDoS) protection system.
+
+- [**fwknop**](https://github.com/mrash/fwknop): Protects ports via Single Packet Authorization in your firewall.
+
+- [**ssh-audit**](https://github.com/arthepsy/ssh-audit): Simple tool that makes quick recommendations for improving an SSH server's security posture.
   
 ## Endpoint Detection and Response
 - [**Wazuh**](https://wazuh.com/): Wazuh is an open-source, multiplatform agent-based security monitoring tool. It's based on a fork of OSSEC HIDS and provides capabilities for intrusion detection, vulnerability detection, log analysis, and more.
 - [**Ettercap**](https://github.com/Ettercap/ettercap): Ettercap is an open-source network security tool known for man-in-the-middle attacks on LAN. It supports sniffing live connections, content filtering, and active/passive dissection of various protocols. Written in C, it offers network and host analysis features, including IP and MAC filtering, ARP poisoning for LAN sniffing, and more.
 - [**EventTracker**](https://www.eventtracker.com/): EventTracker is a dual-purpose tool, serving as both a SIEM (Security Information and Event Management) and an EDR (Endpoint Detection and Response) solution. Its adaptive security architecture integrates prediction, protection, detection, and response. This unified tool makes incident response and EDR an ongoing and cost-effective process.
+- [**Artillery**](https://github.com/BinaryDefense/artillery): Combination honeypot, filesystem monitor, and alerting system designed to protect Linux and Windows operating systems.
+
+- [**Crowd Inspect**](https://www.crowdstrike.com/resources/community-tools/crowdinspect-tool/): Free tool for Windows systems aimed to alert you to the presence of malware that may be communicating over the network.
+
+- [**Fail2ban**](https://www.fail2ban.org/): Intrusion prevention software framework that protects computer servers from brute-force attacks.
+
+- [**Open Source HIDS SECurity (OSSEC)**](https://www.ossec.net/): Fully open source and free, feature-rich, Host-based Instrusion Detection System (HIDS).
+
+- [**Rootkit Hunter (rkhunter)**](https://github.com/rkhunter/rkhunter): POSIX-compliant Bash script that scans a host for various signs of malware.
+
+- [**Shufflecake**](https://github.com/Koroeskohr/Shufflecake): Plausible deniability for multiple hidden filesystems on Linux.
+
+- [**USB Keystroke Injection Protection**](https://github.com/intere/hid-protection): Daemon for blocking USB keystroke injection devices on Linux systems.
+
+- [**chkrootkit**](http://www.chkrootkit.org/): Locally checks for signs of a rootkit on GNU/Linux systems.
 
 ## Incident Response
 
@@ -102,6 +157,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 - [**Rekall**](http://www.rekall-forensic.com/): Rekall is an advanced forensic and incident response framework. It offers powerful tools for analyzing memory and disk images, making it valuable for digital forensics investigations.
 - [**TheHive**](https://thehive-project.org/): TheHive is a scalable Security Incident Response Platform designed to simplify the work of Security Operations Centers (SOCs), CSIRTs, and CERTs. It features tight integration with MISP and provides collaborative incident response capabilities.
 - [**threat_note**](https://github.com/defpoint/threat_note): threat_note is a web application built by Defense Point Security. It allows security researchers to add and retrieve indicators related to their research. It helps researchers manage and share threat intelligence effectively.
+- [**aws_ir**](https://github.com/aws/aws-ir/): Automates your incident response with zero security preparedness assumptions.
   
 ## Digital Forensic
 - [**Autopsy**](https://www.sleuthkit.org/autopsy/): Digital forensics platform.
@@ -110,12 +166,40 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 - [**SANS SIFT Forensic Toolkit**](https://www.sans.org/tools/sift-workstation/): SANS SIFT (SANS Investigative Forensic Toolkit) is a powerful toolkit for forensic analysis and incident response. It is a collection of open source and commercial tools that can be used to perform forensic analysis on a wide range of systems, including Windows, Linux, and Mac OS X. The SANS SIFT kit is designed to be run on a forensic workstation, which is a specialized computer that is used to perform forensic analysis on digital evidence. The SANS SIFT kit is particularly useful for blue teamers, as it provides a wide range of tools and resources that can be used to investigate incidents, respond to threats, and perform forensic analysis on compromised systems.
 - [**The Sleuth Kit**](https://sleuthkit.org/sleuthkit/): The Sleuth Kit is a collection of command line tools that can be used to analyze disk images and recover files from them. It is primarily used by forensic investigators to examine digital evidence after a computer has been seized or an image of a disk has been made. It can be useful because it can help understand what happened during a security incident and identify any malicious activity. The tools in The Sleuth Kit can be used to extract deleted files, analyze disk partition structures, and examine the file system for evidence of tampering or unusual activity.
 - [**Autopsy**](https://www.autopsy.com/): Autopsy is a digital forensics platform and graphical interface to The Sleuth Kit and other digital forensics tools. It is used by law enforcement, military, and corporate examiners to investigate what happened on a computer. You can use it to analyze disk images and recover files, as well as to identify system and user activity. Autopsy is used by "blue teams" (the cybersecurity professionals who defend organizations against attacks) to conduct forensic analysis and incident response. It can help blue teams understand the nature and scope of an attack, and identify any malicious activity that may have occurred on a computer or network.
-  
+- [**LogonTracer**](https://github.com/JPCERTCC/LogonTracer): Investigate malicious Windows logon by visualizing and analyzing Windows event log.
+- [**Volatility**](https://www.volatilityfoundation.org/): Advanced memory forensics framework.
+- [**AutoMacTC**](https://github.com/CrowdStrike/AutoMacTC): Modular, automated forensic triage collection framework designed to access various forensic artifacts on macOS, parse them, and present them in formats viable for analysis.
+
+- [**OSXAuditor**](https://github.com/jipegit/OSXAuditor): Free macOS computer forensics tool.
+
+- [**OSXCollector**](https://github.com/Yelp/osxcollector): Forensic evidence collection & analysis toolkit for macOS.
+
+- [**ir-rescue**](https://github.com/diogo-fernan/ir-rescue): Windows Batch script and a Unix Bash script to comprehensively collect host forensic data during incident response.
+
+- [**Margarita Shotgun**](https://github.com/superponible/margarita-shotgun): Command line utility (that works with or without Amazon EC2 instances) to parallelize remote memory acquisition.
+
+- [**Untitled Goose Tool**](https://github.com/BishopFox/UntitledGoose): Assists incident response teams by exporting cloud artifacts from Azure/AzureAD/M365 environments in order to run a full investigation despite lacking in logs ingested by a SIEM.
+
 
 ## Malware Analysis % Sandboxing
 - [**Bubblewrap**](https://github.com/containers/bubblewrap): Bubblewrap is a sandboxing tool designed for unprivileged Linux users. It restricts access to specific parts of the operating system or user data, enhancing security by limiting the scope of potential breaches.
 - [**Dangerzone**](https://github.com/firstlookmedia/dangerzone): Dangerzone is a tool that takes potentially dangerous PDFs, office documents, or images and converts them into safe PDFs. This conversion process helps mitigate the risks associated with malicious documents.
 - [**Firejail**](https://firejail.wordpress.com/): Firejail is a setuid program that enhances security by restricting the running environment of untrusted applications using Linux namespaces and seccomp-bpf. It helps reduce the risk of security breaches by isolating applications from the rest of the system.
+- [**VirusTotal**](https://www.virustotal.com): Malicious IOC Sharing Platform. VirusTotal is a website and cloud-based tool that analyzes and scans files, URLs, and software for viruses, worms, and other types of malware.
+- [**IDA (Interactive Disassembler)**](https://hex-rays.com/ida-free/): Malware disassembler and debugger. IDA is a powerful tool used to reverse engineer and analyze compiled and executable code. It can be used to examine the inner workings of software, including malware, and to understand how it functions.
+- [**Ghidra**](https://ghidra-sre.org/): Malware reverse engineering tool. Ghidra is a free, open-source software reverse engineering tool developed by the National Security Agency (NSA). It is used to analyze compiled and executable code, including malware.
+- [**Malware Simulation Framework**](https://github.com/FourCoreLabs/firedrill): A framework for simulating malware.
+- [**decode-vbe**](https://github.com/DidierStevens/DidierStevensSuite/blob/master/decode-vbe.py): Encoded VBE script decoder. Script Encoding was introduced by Microsoft to prevent people from being able to read, understand, and alter VBScript files.
+- [**pafish**](https://github.com/a0rtega/pafish): Virtual machine sandbox detector. Pafish is a testing tool that detects virtual machines and malware analysis environments in the same way that malware families do.
+- [**lookyloo**](https://github.com/Lookyloo/lookyloo): Phishing domain mapping. Lookyloo is a web interface that captures a webpage and displays a tree of the domains that call each other.
+- [**YARA**](https://github.com/virustotal/yara): Malware identification via pattern matching. YARA is a tool aimed at helping malware researchers to identify and classify malware samples.
+- [**Cuckoo Sandbox**](https://cuckoosandbox.org/): Malware analysis sandbox. Cuckoo is an open-source automated malware analysis system that runs and analyzes files in an isolated operating system.
+- [**Radare2**](https://github.com/radareorg/radare2): Reverse engineering framework. Radare2 provides a set of libraries, tools, and plugins to ease reverse engineering tasks.
+- [**dnSpy**](https://github.com/dnSpy/dnSpy): .NET debugger and assembly editor. dnSpy is a debugger and .NET assembly editor.
+- [**malware-traffic-analysis.net**](https://www.malware-traffic-analysis.net/): Malware and packet capture samples. The site contains blog entries about malicious network traffic, often with pcap files or malware samples.
+- [**Falcon Sandbox**](https://www.crowdstrike.com/endpoint-security-products/falcon-sandbox-malware-analysis/): Deep analysis of unknown threats and zero-day exploits, providing threat intelligence and indicators of compromise.
+- [**Firejail**](https://github.com/netblue30/firejail): Linux SUID sandbox program that reduces the risk of security breaches by sandboxing the running environment of untrusted applications.
+- [**Valkyrie Comodo**](https://valkyrie.comodo.com/): Online file verdict system that tests unknown files to determine whether they are malicious, including zero-day threats.
 
 
 
@@ -136,3 +220,136 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 - [**Recuva**](https://www.ccleaner.com/recuva): Recuva is a data recovery tool that can be used to recover deleted files from your computer. It is often used to recover deleted files that may contain valuable information, such as deleted logs or documents that could be used to investigate a security incident. Recuva can recover files from hard drives, USB drives, and memory cards, and it is available for Windows and Mac operating systems.
 - [**Extundelete**](https://extundelete.sourceforge.net/): Extundelete is a utility that can be used to recover deleted files from an ext3 or ext4 file system. It works by searching the file system for blocks of data that used to belong to a file, and then attempting to recreate the file using those blocks of data. It is often used to recover important files that have been accidentally or maliciously deleted.
 - [**TestDisk**](https://www.cgsecurity.org/wiki/TestDisk_Download): TestDisk is a free and open-source data recovery software tool that is designed to help recover lost partitions and make non-booting disks bootable again. It is useful for both computer forensics and data recovery. It can be used to recover data that has been lost due to a variety of reasons, such as accidental deletion, formatting, or corruption of the partition table. TestDisk can also be used to repair damaged boot sectors, recover deleted partitions, and recover lost files. It supports a wide range of file systems, including FAT, NTFS, and ext2/3/4, and can be used to recover data from disks that are damaged or formatted with a different file system than the one they were originally created with.
+
+## Cloud Platform Security Tools
+
+- [**Aaia**](https://github.com/ankane/aaia): Visualizes AWS IAM and Organizations in a graph format using Neo4j.
+
+- [**Falco**](https://falco.org/): Behavioral activity monitor to detect anomalous activity in containerized applications, hosts, and network packet flows.
+
+- [**Kata Containers**](https://katacontainers.io/): Secure container runtime with lightweight virtual machines for stronger workload isolation.
+
+- [**Principal Mapper (PMapper)**](https://github.com/toniblyx/pmapper): Evaluates IAM permissions in AWS to identify risks in IAM configurations.
+
+- [**Prowler**](https://github.com/toniblyx/prowler): Tool for AWS account security assessment and hardening.
+
+- [**Scout Suite**](https://github.com/nccgroup/ScoutSuite): Multi-cloud security auditing tool for assessing the security posture of cloud environments.
+
+- [**gVisor**](https://github.com/google/gvisor): Application kernel written in Go, providing an isolation boundary between applications and the host kernel.
+
+## Other Security Tools
+- [**Ansible Lockdown**](https://github.com/ansible-lockdown/ansible-lockdown): Curated collection of information security themed Ansible roles.
+- [**Clevis**](https://github.com/latchset/clevis): Pluggable framework for automated decryption, often used as a Tang client.
+- [**DShell**](https://github.com/USArmyResearchLab/Dshell): Extensible network forensic analysis framework in Python for analyzing network packet captures.
+- [**Dev-Sec.io**](https://dev-sec.io/): Server hardening framework providing Ansible, Chef, and Puppet implementations of baseline security configurations.
+- [**peepdf**](https://github.com/jesparza/peepdf): Scriptable PDF file analyzer.
+- [**PyREBox**](https://github.com/Cisco-Talos/pyrebox): Python-scriptable reverse engineering sandbox based on QEMU.
+- [**Watchtower**](https://github.com/containrrr/watchtower): Container-based solution for automating Docker container base image updates.
+- [**MultiScanner**](https://github.com/mitre/multiscanner): File analysis framework in Python that evaluates files by running a suite of tools and aggregating output.
+- [**Posh-VirusTotal**](https://github.com/darkoperator/Posh-VirusTotal): PowerShell interface to VirusTotal.com APIs.
+- [**censys-python**](https://github.com/censys/censys-python): Python wrapper to the Censys REST API.
+- [**libcrafter**](https://github.com/pellegre/libcrafter): High-level C++ network packet sniffing and crafting library.
+- [**python-dshield**](https://github.com/philwantsfish/python-dshield): Pythonic interface to the Internet Storm Center/DShield API.
+- [**python-sandboxapi**](https://github.com/mandiant/python-sandboxapi): Minimal Python API for building integrations with malware sandboxes.
+- [**python-stix2**](https://github.com/oasis-open/cti-python-stix2): Python APIs for working with Structured Threat Information eXpression (STIX) JSON content.
+- [**KubeSec**](https://kubesec.io/): Static analyzer of Kubernetes manifests that can be run locally, as a Kubernetes admission controller, or as a cloud service.
+
+- [**Kyverno**](https://kyverno.io/): Policy engine designed for Kubernetes.
+
+- [**Linkerd**](https://linkerd.io/): Ultra-light Kubernetes-specific service mesh that adds observability, reliability, and security to Kubernetes applications without modifying the application itself.
+
+- [**Managed Kubernetes Inspection Tool (MKIT)**](https://github.com/fairwindsops/polaris): Query and validate security-related configuration settings of managed Kubernetes cluster objects and workloads/resources.
+
+- [**Polaris**](https://github.com/fairwindsops/polaris): Validates Kubernetes best practices by running tests against code commits, admission requests, or live resources in a cluster.
+
+- [**Sealed Secrets**](https://github.com/bitnami-labs/sealed-secrets): Kubernetes controller and tool for one-way encrypted Secrets.
+
+- [**certificate-expiry-monitor**](https://github.com/jetstack/cert-manager/tree/master/cmd/monitor): Utility exposing TLS certificate expiry as Prometheus metrics.
+
+- [**k-rail**](https://github.com/cruise-automation/k-rail): Workload policy enforcement tool for Kubernetes.
+
+- [**kube-forensics**](https://github.com/securestate/kube-forensics): Allows cluster administrators to dump the state of running pods and containers for offline forensic analysis.
+
+- [**kube-hunter**](https://github.com/aquasecurity/kube-hunter): Open-source tool to test security issues in Kubernetes clusters from either outside or inside the cluster.
+
+- [**kubernetes-event-exporter**](https://github.com/opsgenie/kubernetes-event-exporter): Exports often-missed Kubernetes events to various outputs for observability or alerting.
+
+
+- [**Consul**](https://www.consul.io/): Solution to connect and configure applications across dynamic, distributed infrastructure, with Consul Connect enabling secure service-to-service communication with automatic TLS encryption and identity-based authorization.
+
+- [**Istio**](https://istio.io/): Open platform for integrating microservices, managing traffic flow, enforcing policies, and aggregating telemetry data.
+- [**GPG Sync**](https://github.com/twstrike/gpgsync): Centralize and automate OpenPGP public key distribution, revocation, and updates for an organization or team.
+
+- [**Geneva (Genetic Evasion)**](https://geneva.cs.umd.edu/): Experimental genetic algorithm that evolves censorship evasion strategies against nation-state level censors to increase availability of blocked content.
+
+- [**GlobaLeaks**](https://www.globaleaks.org/): Free, open source software to easily set up and maintain a secure whistleblowing platform.
+
+- [**SecureDrop**](https://securedrop.org/): Open source whistleblower submission system for media organizations and NGOs to securely accept documents from anonymous sources.
+
+- [**Teleport**](https://goteleport.com/): Unifies access for SSH servers, Kubernetes clusters, web applications, and databases across all environments for engineers and security professionals.
+- [**Bane**](https://github.com/genuinetools/bane): Custom and improved AppArmor profile generator for Docker containers.
+
+- [**BlackBox**](https://github.com/StackExchange/blackbox): Securely store secrets in Git/Mercurial/Subversion by encrypting them "at rest" using GnuPG.
+
+- [**Checkov**](https://www.checkov.io/): Static analysis tool for Terraform (infrastructure as code) to detect CIS policy violations and prevent cloud security misconfigurations.
+
+- [**Cilium**](https://cilium.io/): Open source software for transparently securing network connectivity between application services in Linux container management platforms like Docker and Kubernetes.
+
+- [**Clair**](https://github.com/quay/clair): Static analysis tool to identify vulnerabilities introduced via application container images like Docker.
+
+- [**CodeQL**](https://securitylab.github.com/tools/codeql): Discovers vulnerabilities across a codebase by performing queries against code as though it were data.
+
+- [**DefectDojo**](https://www.defectdojo.org/): Application vulnerability management tool built for DevOps and continuous security integration.
+
+- [**Gauntlt**](http://gauntlt.org/): Pentest applications during routine continuous integration build pipelines.
+
+- [**Git Secrets**](https://github.com/awslabs/git-secrets): Prevents committing passwords and sensitive information to a git repository.
+
+- [**SOPS**](https://github.com/mozilla/sops): Editor of encrypted files that supports various formats and encryption methods.
+
+- [**Snyk**](https://snyk.io/): Finds and fixes vulnerabilities and license violations in open source dependencies and container images.
+
+- [**SonarQube**](https://www.sonarqube.org/): Continuous inspection tool that provides detailed reports during automated testing and alerts on security vulnerabilities.
+
+- [**Trivy**](https://github.com/aquasecurity/trivy): Simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for use in continuous integration pipelines.
+
+- [**Vault**](https://www.vaultproject.io/): Tool for securely accessing secrets like API keys, passwords, or certificates.
+
+- [**git-crypt**](https://www.agwa.name/projects/git-crypt/): Transparent file encryption in Git repositories.
+
+- [**helm-secrets**](https://github.com/zendesk/helm-secrets): Helm plugin that manages secrets with Git workflow and stores them securely.
+
+- [**terrascan**](https://github.com/accurics/terrascan): Static code analyzer for Infrastructure as Code tools that detects compliance and security violations.
+
+- [**tfsec**](https://github.com/tfsec/tfsec): Static analysis security scanner for Terraform code designed for local and CI pipeline use.
+
+- [**DynInst**](https://dyninst.org/): Tools for binary instrumentation, analysis, and modification.
+
+- [**DynamoRIO**](https://dynamorio.org/): Runtime code manipulation system for building dynamic analysis tools.
+
+- [**Egalito**](https://egalito.org/): Binary recompiler and instrumentation framework for binary hardening and security research.
+
+- [**Valgrind**](http://valgrind.org/): Instrumentation framework for building dynamic analysis tools.
+
+- [**Chef InSpec**](https://www.inspec.io/): Describes security and compliance rules as automated tests for IT infrastructures.
+
+- [**OpenSCAP Base**](https://www.open-scap.org/tools/): Library and command line tool to evaluate a system against SCAP baseline profiles.
+
+- [**Dependency Combobulator**](https://github.com/authzed/combobulator): Framework to detect and prevent dependency confusion leakage and attacks.
+
+- [**Confusion checker**](https://github.com/spectralops/confusion): Checks for artifacts containing the same name between repositories.
+
+- [**snync**](https://github.com/warner/snync): Prevents and detects vulnerability to dependency confusion supply chain security attacks.
+
+- [**AllStar**](https://github.com/starburstdata/allstar): GitHub App to set and enforce security policies on organizations or repositories.
+
+- [**Conftest**](https://github.com/open-policy-agent/conftest): Utility to write tests against structured configuration data.
+
+- [**Open Policy Agent (OPA)**](https://www.openpolicyagent.org/): Unified toolset and framework for policy across the cloud-native stack.
+
+- [**Regula**](https://github.com/fugue/regula): Checks IaC templates for AWS, Azure, Google Cloud, and Kubernetes security and compliance using Open Policy Agent/Rego.
+
+- [**Tang**](https://github.com/latchset/tang): Server for binding data to network presence, providing data only to clients on a secured network.
+
+
+
